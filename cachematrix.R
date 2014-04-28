@@ -25,7 +25,6 @@ getinverse = getinverse)
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
-        ## get the inverse of the matrix
 i <- x$getinverse()
 ## check if there is the matrix
 if(!is.null(i)) {
